@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App has a valid snapshot 1`] = `
+<div
+  className="App"
+>
+  <h1>
+    My first React app
+  </h1>
+  <form
+    onSubmit={[Function]}
+  >
+    Search
+    <input
+      onChange={[Function]}
+      type="text"
+      value="redux"
+    />
+    <button
+      type="submit"
+    >
+      Search
+    </button>
+  </form>
+  <div />
+  <button
+    onClick={[Function]}
+    type="button"
+  >
+    More
+  </button>
+</div>
+`;
+
+exports[`Search has a valid snapshot 1`] = `
+<form>
+  Search
+  <input
+    type="text"
+  />
+  <button
+    type="submit"
+  >
+    Search
+  </button>
+</form>
+`;
