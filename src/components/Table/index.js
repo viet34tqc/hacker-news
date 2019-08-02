@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import PropTypes from "prop-types";
 import Button from "../Buttons/index.js";
 
 export default class Table extends Component {
@@ -20,3 +21,8 @@ export default class Table extends Component {
     );
   }
 }
+
+Table.propTypes = {
+  list: PropTypes.array.isRequired,
+  onDismiss: PropTypes.func.isRequired
+};
